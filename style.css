@@ -1,0 +1,29 @@
+h1 {
+    /* Thiết lập màu văn bản */
+    color: #000080; 
+    /* Căn giữa văn bản */
+    text-align: center;
+}
+
+/* 2. Định kiểu cho Hộp Nội dung (div.container) */
+.container {
+    /* Thiết lập chiều rộng của hộp */
+    width: 50%;
+    
+    /* Thiết lập màu nền */
+    background-color: #f0f0f0;
+    
+    /* Thêm khoảng đệm bên trong hộp */
+    padding: 20px;
+    
+    /* Thêm đường viền */
+    border: 1px solid lightgray;
+    
+    /* Căn giữa toàn bộ khối (sử dụng margin: top/bottom auto/left/right) */
+    margin: 0 auto; 
+}
+
+/* (Thêm phần này nếu bạn muốn reset mặc định của body) */
+body {
+    font-family: Arial, sans-serif;
+}
